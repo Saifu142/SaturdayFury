@@ -23,7 +23,7 @@ public class Exception_TryCatchFinale {
 	public static void main(String[]args) throws Exception {
 		
 		//Buid-In exception - ArrayIndexOutOfBoundException
-		int index = 4;
+		int index = 5;
 		try {
 			int[] ageFury = new int[] {25, 28, 30, 31, 29};
 			System.out.println("Student Age = " + ageFury[index]);
