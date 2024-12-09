@@ -25,11 +25,12 @@ public class Exception_TryCatchFinale {
 		//Buid-In exception - ArrayIndexOutOfBoundException
 		int index = 5;
 		try {
-			int[] ageFury = new int[] {25, 28, 30, 31, 29};
+			int[] ageFury = new int[] {26, 28, 30, 31, 29};
 			System.out.println("Student Age = " + ageFury[index]);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		//testing2
 		//Specific Build-in Exceptions - NumberFormat Exception
 		try {
 			int num = Integer.parseInt("test");
